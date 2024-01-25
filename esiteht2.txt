@@ -1,0 +1,47 @@
+
+#include <iostream>
+
+using namespace std;
+
+
+class Vehicle
+{
+public:
+    
+    Vehicle();
+    
+    void setName (string);
+    void setSpeed (int);
+    
+    string getName (void);
+    int getSpeed (void);
+
+private:
+    
+        int speed;
+        string name;
+        
+};
+
+Vehicle::Vehicle() {
+    
+}
+  
+void Vehicle::setName (string s)
+{
+    name =s;
+}
+
+void Vehicle::setSpeed (int s)
+{
+    speed= s;
+}
+
+int Vehicle::getSpeed(void)
+{
+    return speed;
+}
+string Vehicle::getName(void)
+{
+    return name;
+}
