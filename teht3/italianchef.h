@@ -9,8 +9,12 @@ using namespace std;
 
 class ItalianChef: public chef
 {
+private:
+    int vesi;
+    int jauho;
+
 public:
-    ItalianChef(const string& chefName);
+    ItalianChef(const string& chefName,int vesiMaara,int jauhoMaara);
 
     void makePasta();
     string getName();
