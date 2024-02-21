@@ -1,0 +1,22 @@
+#ifndef KATUTASO_H
+#define KATUTASO_H
+#include <iostream>
+#include "kerros.h"
+
+
+using namespace std;
+
+class Katutaso:public Kerros
+{
+public:
+    Katutaso();
+
+    void maaritaAsunnot(int asukasMaara1, int nelio1, int asukasMaara2, int nelio2);
+
+
+/*private:
+    Asunto a1;
+    Asunto a2;*
+};
+
+#endif // KATUTASO_H
